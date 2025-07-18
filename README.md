@@ -38,14 +38,14 @@
 
 각 챕터별 디렉토리에는 핵심 이론 정리 노트와 실습 코드가 포함되어 있습니다.
 
-- **`ch01_python_basics/`**: 파이썬 기초 및 NumPy, Matplotlib 사용법
-- **`ch02_perceptron/`**: 퍼셉트론의 개념과 AND, OR, NAND 게이트 구현
-- **`ch03_neural_network/`**: 신경망의 구조, 활성화 함수(Sigmoid, ReLU) 및 순전파 구현
-- **`ch04_neural_network_learning/`**: 신경망 학습, 손실 함수, 수치 미분과 기울기
-- **`ch05_backpropagation/`**: **(핵심)** 계산 그래프를 이용한 오차역전파법 원리 이해 및 구현
-- **`ch06_learning_techniques/`**: 매개변수 최적화(Adam, SGD), 가중치 초기값, 과적합 방지(가중치 감소, 드롭아웃)
-- **`ch07_cnn/`**: 합성곱 신경망(CNN), 합성곱 및 풀링 계층 구현
-- **`ch08_deep_learning_summary/`**: 딥러닝의 역사, 응용 및 미래
+- **`1.hello-python/`**: 딥러닝 구현에 필요한 파이썬 기초, NumPy 및 Matplotlib 사용법을 학습합니다.
+- **`2.perceptron/`**: 신경망의 기원이 되는 퍼셉트론을 이해하고 간단한 논리 회로를 구현합니다.
+- **`3.neural-network/`**: 신경망의 구조와 활성화 함수를 배우고, 행렬 연산을 이용한 순전파를 구현합니다.
+- **`4.neural-network-learning/`**: 손실 함수를 지표로, 경사 하강법을 이용해 모델을 학습하는 원리를 배웁니다.
+- **`5.Backpropagation/`**: **(핵심)**  계산 그래프를 통해 오차역전파법을 시각적으로 이해하고 효율적인 학습을 구현합니다.
+- **`6.Learning-Techniques/`**: Adam과 같은 최적화 기법, 가중치 초기값 설정, 드롭아웃 등 성능 향상 기술을 다룹니다.
+- **`7.Convolutional-Neural-Networks/`**: 이미지 인식에 강력한 합성곱 신경망(CNN)의 구조를 이해하고 직접 구현합니다.
+- **`8.Deep-learning-summary/`**: 딥러닝의 역사, 최신 동향 및 주요 응용 분야를 살펴보며 학습을 마무리합니다.
 
 ---
 
@@ -61,8 +61,8 @@
 
 ```bash
 # 1. 리포지토리 클론
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git)
-cd YOUR_REPOSITORY
+git clone https://github.com/cbnu-yhjeon/Deep-Learning-Entities.git)
+cd Deep-Learning-Entities
 
 # 2. 필요한 라이브러리 설치 (가상환경 사용을 권장합니다)
 pip install numpy matplotlib
